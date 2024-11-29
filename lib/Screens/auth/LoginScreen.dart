@@ -15,8 +15,8 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  final TextEditingController emailController = TextEditingController(text: "hali07112@gmail.com");
-  final TextEditingController passwordController = TextEditingController(text: "Password1@@");
+  final TextEditingController emailController = TextEditingController(text: "");
+  final TextEditingController passwordController = TextEditingController(text: "");
   final AuthService _authService = AuthService();
   bool _obscureText = true;
   bool _isLoading = false;
